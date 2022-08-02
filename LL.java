@@ -15,7 +15,7 @@ class LL {
     // Add - first
 
     public void addFirst(String  data){
-        Node newNode = new Node("A");
+        Node newNode = new Node(data);
 
         if(head == null) {
             head = newNode;
@@ -29,7 +29,7 @@ class LL {
     // Add - Last
 
     public void addLast(String data) {
-        Node newNode = new Node("A");
+        Node newNode = new Node(data);
 
         if(head == null) {
             head = newNode;
@@ -67,6 +67,9 @@ class LL {
         LL list = new LL();
         list.addFirst("a");
         list.addFirst("is");
+        list.printList();
+
+        list.addLast("last");
         list.printList();
 
     }
