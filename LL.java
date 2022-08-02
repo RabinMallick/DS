@@ -12,7 +12,7 @@ class LL {
         }
     }
 
-    // Add - first , last
+    // Add - first
 
     public void addFirst(String  data){
         Node newNode = new Node("A");
@@ -26,7 +26,7 @@ class LL {
         head = newNode;
     }
 
-    // Add Last
+    // Add - Last
 
     public void addLast(String data) {
         Node newNode = new Node("A");
@@ -50,6 +50,7 @@ class LL {
     public void printList() {
         if( head == null){
             System.out.print("List is empty");
+            return;
         }
 
         Node currNode = head;
@@ -57,6 +58,7 @@ class LL {
             System.out.print(currNode.data + " -> ");
             currNode = currNode.next;
         }
+
         System.out.println("NULL");
 
     }
