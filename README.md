@@ -1,3 +1,6 @@
 # Data Structure
 
-A simple linked list implementation using Java.
+Implementation of Data Structure Using Java.
+
+1. Linked List
+2. Stack
